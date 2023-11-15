@@ -1,4 +1,4 @@
-input[id=modal]{
+input{
     display: none;
 }
 
@@ -25,7 +25,6 @@ input[id=modal]{
     cursor: pointer;
 }
 
-input#modal[type=checkbox]:checked~.modalBox{
+#modal:checked~.modalBox{
     display: block;
 }
-
