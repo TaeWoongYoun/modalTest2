@@ -7,15 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- 체크박스 -->
     <input type="checkbox" name="I am modal" id="modal">
+    <!-- 모달창을 여는 영역 -->
     <div class="main">
+        <!-- 레이블 태그에 for와 인풋 태그에 id가 연결됨 
+        원래는 체크박스를 눌러야만 모달창이 열린다면 레이블로
+        연결을 해두었기 때문에 디브박스 안에 레이블만 눌러도 체크박스
+        인식이 됨 -->
         <label for="modal" class="openBtn">open</label>
     </div>
+    <!-- 모달창 부분 -->
     <div class="modalBox">
         <label for="modal" class="closeBtn">close</label>
+        <!-- 모달창 안에 들어가는 본문 -->
         <div class="text">
             <p></p>
         </div>
     </div>
+
 </body>
 </html>
