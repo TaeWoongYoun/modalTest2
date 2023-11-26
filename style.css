@@ -7,7 +7,7 @@ input{
 커서 모양 변경 */
 .openBtn{
     cursor: pointer;
-}
+} 
 
 /* 모달박스 구조. */
 .modalBox{
